@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ibm-cloud-security:appid-clientsdk-android:6.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/211475978c8edac92423da4f48b10245/jetified-appid-clientsdk-android-6.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/211475978c8edac92423da4f48b10245/jetified-appid-clientsdk-android-6.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/211475978c8edac92423da4f48b10245/jetified-appid-clientsdk-android-6.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ibm-cloud-security/appid-clientsdk-android/6.0.1/787b96a53862c7e3d5510c17a7ebbc74c6a0cea2/appid-clientsdk-android-6.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

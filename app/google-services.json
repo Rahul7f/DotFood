@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "608022187423",
+    "project_id": "dotfood-66a6c",
+    "storage_bucket": "dotfood-66a6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608022187423:android:d102945c4a3527f07841aa",
+        "android_client_info": {
+          "package_name": "com.rsin.dotfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608022187423-0g44f1m0o3enp13cfb7769dgf8vtgs76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcY_qEn-T4TXBqdMRragp62LkAda3oNAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608022187423-0g44f1m0o3enp13cfb7769dgf8vtgs76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

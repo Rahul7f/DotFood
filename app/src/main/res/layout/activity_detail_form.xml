@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+ android:layout_height="wrap_content"
+     android:layout_width="wrap_content">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:padding="16dp"
+    tools:context=".Detail_Form">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Fill the following details to get started"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"></TextView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:hint="Full Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:endIconMode="clear_text"
+        android:id="@+id/name_et"
+        android:enabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:startIconDrawable="@android:drawable/ic_menu_call"
+        android:hint="Phone No."
+        app:endIconMode="clear_text"
+        android:id="@+id/phone_et"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        android:enabled="true"
+        app:errorEnabled="true"
+        app:prefixText="+91"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Title"
+        app:endIconMode="clear_text"
+        android:enabled="true"
+        app:counterMaxLength="20"
+        app:counterEnabled="true"
+        android:id="@+id/title_et"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:inputType="text"
+            android:maxLength="20"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/description_et"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Description"
+        app:endIconMode="clear_text"
+        app:helperTextEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="500"
+        android:maxWidth="50dp"
+        app:helperText="Explain in brief about your community or organisation"
+        android:enabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Choose State"/>
+    <Spinner
+        android:id="@+id/state_spinner"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle"
+        android:layout_margin="10dp"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Choose City"/>
+    <Spinner
+        android:id="@+id/city_spinner"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle"
+        android:layout_margin="10dp"
+        android:drawSelectorOnTop="true"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Pin Code"
+        app:endIconMode="clear_text"
+        android:id="@+id/pincode"
+        android:enabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Complete Address"
+        app:endIconMode="clear_text"
+        android:enabled="true"
+        app:startIconDrawable="@drawable/ic_location"
+        android:id="@+id/full_address_et"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/longlet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick location address"
+            android:layout_margin="10dp"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <GridView
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:nestedScrollingEnabled="true"
+        android:scrollbars="horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="250dp"
+        android:id="@+id/add_imgbtn"
+        android:layout_gravity="center"
+        android:onClick="upload"
+        android:layout_height="wrap_content"
+        app:cornerRadius="20dp"
+        android:text="UPLOAD PICTURES"
+        app:icon="@android:drawable/ic_menu_upload"
+        android:backgroundTint="#C8C4C4"
+        />
+    <ImageView
+        android:id="@+id/aadhar_card_font"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/upload"
+        android:layout_weight="1"
+        android:layout_margin="5dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/picklocation_btn"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:cornerRadius="20dp"
+        android:onClick="getlocation"
+        android:text="PICK LOCATION"
+        app:icon="@android:drawable/ic_menu_mylocation"
+        android:backgroundTint="#C8C4C4"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/post_btn"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:onClick="next"
+        android:layout_height="wrap_content"
+        app:cornerRadius="20dp"
+        android:text="CONTINUE"
+        android:backgroundTint="#C8C4C4"
+        />
+
+
+</LinearLayout>
+</ScrollView>
